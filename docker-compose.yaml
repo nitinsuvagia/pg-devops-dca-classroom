@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  webserver:
+    deploy:
+      replicas: 6
+    entrypoint:
+      - python
+    ports:
+      - 8000
+    image: docker.io/library/python:alpine
+    command:
+      - -m
+      - http.server

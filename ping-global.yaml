@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  ping-global:
+    entrypoint:
+      - ping
+    image: busybox
+    command:
+      - localhost
+    deploy:
+      mode: global

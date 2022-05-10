@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  index.php: <?php phpinfo();?>
+kind: ConfigMap
+metadata:
+  name: phpinfo-cm
+  namespace: phpinfo

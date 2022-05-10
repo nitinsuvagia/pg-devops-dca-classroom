@@ -1,0 +1,3 @@
+FROM docker.io/library/php:alpine
+FROM scratch
+COPY --from=0 / /
