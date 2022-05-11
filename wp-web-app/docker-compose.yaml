@@ -9,7 +9,7 @@ services:
       MYSQL_ROOT_PASSWORD: myrootpassword
       MYSQL_DATABASE: mydb
       MYSQL_USER: mydbuser
-      MYSQL_PASSWORD : myuserpassword
+      MYSQL_PASSWORD: myuserpassword
 
   frontend:
      depends_on:
